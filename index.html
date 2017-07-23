@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- EXTERNAL LINKS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Zilla+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<div>
+    <div class="container">
+
+        <!--DATE, ICON AND C/F-->
+
+        <div id="weatherBox">
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6" id="date">
+
+                    <h2></h2>
+                    <h3></h3>
+                    <p></p>
+                    <button class="btn btn-link">To °F</button>
+
+                </div>
+
+
+                <div class="col-md-6 col-sm-6">
+
+                    <canvas id="iconWeather" width="200" height="200"></canvas>
+
+                </div>
+            </div>
+
+            <!--CITY AND TEMP-->
+            <div class="row">
+                <div class="col-md-12" id="city">
+
+                    <h2></h2>
+                    <h3></h3>
+                    <h4></h4>
+
+                </div>
+            </div>
+
+            <!--MIN AND MAX-->
+            <div class="row text-center">
+
+                <div class="col-md-6 col-sm-6 col-6" id="min">
+
+                    <h3>Min:</h3>
+                    <h4></h4>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-6" id="max">
+
+                    <h3>Max:</h3>
+                    <h4></h4>
+
+                </div>
+            </div>
+
+            <!--WIND, HUMIDITY AND SUNRISE-->
+            <div class="row" id="otherFacts">
+
+                <div class="col" id="wind">
+
+                    <h5>Wind:</h5>
+                    <p></p>
+
+                </div>
+
+                <div class="col" id="humidity">
+
+                    <h5>Humidity:</h5>
+                    <p></p>
+
+                </div>
+
+
+                <div class="col" id="sunrise">
+
+                    <h5>Sunrise:</h5>
+                    <p></p>
+
+                </div>
+
+                <div class="col" id="sunset">
+
+                    <h5>Sunset:</h5>
+                    <p></p>
+
+                </div>
+
+            </div>
+        </div> <!--weatherbox-->
+        <footer class="text-center"><a href="https://github.com/Smukat">© Jesica Prades - 2017</a></footer>
+
+    </div>
+</div>
+
+
+
+
+<!--SCRIPTS-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<script src="vendor/ie10-viewport-bug-workaround.js"></script>
+<script src="vendor/skycons.js"></script>
+<script src="vendor/moment.min.js"></script>
+
+
+<script src="weather.js"></script>
+
+</body>
+
+</html>

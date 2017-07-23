@@ -1,0 +1,161 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite,
+code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5,
+h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre,
+q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time,
+tr, tt, u, ul, var, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+
+h1 { font-size: 2.074em;}
+
+h2 { font-size: 1.728em; }
+
+h3 { font-size: 1.44em; }
+
+h4 { font-size: 1.2em; }
+
+small { font-size: 0.833em; display: block; }
+
+
+.container {
+    width: 40%;
+    padding-bottom: 1em;
+}
+
+
+
+/*DATE, ICON AND C/F*/
+
+#weatherBox {
+    background-color: #ffffff;
+    margin-top: 8em;
+    padding: 1.4em;
+    border: 0.1px solid #ff6095;
+    border-radius: 0.8em;
+    box-shadow:
+            -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+#date {
+    font-family: 'Zilla Slab', serif;
+}
+
+#date h2 {
+    font-weight: bold;
+}
+
+#iconWeather {
+    margin-top: -5em;
+    float: right;
+
+}
+
+.btn {
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*CITY AND TEMP*/
+
+#city {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    padding: 2em;
+}
+
+#city h2 {
+    font-size: 2.5em;
+    padding-bottom: 0.7em;
+}
+
+#city h3 {
+    font-size: 2em;
+}
+
+#min, #max {
+    padding-bottom: 3em;
+}
+
+
+
+/*WIND, HUMIDITY AND SUNRISE*/
+
+#otherFacts {
+    padding-left: 1em;
+}
+
+#otherFacts p {
+    padding-bottom: 1em;
+}
+
+
+
+#wind {
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url("images/wind.png") right top no-repeat;
+}
+
+#humidity {
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url("images/humidity.png") right  no-repeat;
+}
+
+#sunrise {
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url("images/sunrise.png") right top no-repeat;
+}
+
+#sunset {
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url("images/sunset.png") right top no-repeat;
+}
+
+/*FOOTER*/
+
+footer a {
+    color: #fff;
+
+}
+
+footer a:hover {
+    color: #f7f7f7;
+}
+
+/*PHONES*/
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #weatherBox {
+        margin-top: 0.8em;
+    }
+
+    #iconWeather {
+        margin-top: -2em;
+
+    }
+
+    canvas {
+        width: 128px;
+        height: 128px;
+    }
+
+}
