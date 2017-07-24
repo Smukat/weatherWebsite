@@ -26,7 +26,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#fec325"});
                     skycons.add("iconWeather", "clear-day");
                     $("body").css({"background-color" : "#60caff"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#ff6095"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#ff6095"});
                     $("#city>h2, .btn:hover").css({"color": "#fec325"});
                     break;
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#0d0411"});
                     skycons.add("iconWeather", "clear-night");
                     $("body").css({"background-color" : "#153a57"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#441557"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#441557"});
                     $("#city>h2, .btn:hover").css({"color": "#574e15"});
                     break;
 
@@ -42,7 +42,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#a8a86b"});
                     skycons.add("iconWeather", "partly-cloudy-day");
                     $("body").css({"background-color" : "#4a76a8"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#924aa8"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#924aa8"});
                     $("#city>h2, .btn:hover").css({"color": "#a86e4a"});
                     break;
 
@@ -50,7 +50,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#0d0411"});
                     skycons.add("iconWeather", "partly-cloudy-night");
                     $("body").css({"background-color" : "#153a57"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#441557"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#441557"});
                     $("#city>h2, .btn:hover").css({"color": "#574e15"});
                     break;
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#3a393a"});
                     skycons.add("iconWeather", "cloudy");
                     $("body").css({"background-color" : "#616061"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#888888"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#888888"});
                     $("#city>h2, .btn:hover").css({"color": "#b0afb0"});
                     break;
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#383857"});
                     skycons.add("iconWeather", "rain");
                     $("body").css({"background-color" : "#573838"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#574738"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#574738"});
                     $("#city>h2, .btn:hover").css({"color": "#385738"});
                     break;
 
@@ -74,7 +74,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#47351a"});
                     skycons.add("iconWeather", "sleet");
                     $("body").css({"background-color" : "#1a472b"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#221a47"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#221a47"});
                     $("#city>h2, .btn:hover").css({"color": "#471e1a"});
                     break;
 
@@ -82,7 +82,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#3a1c4b"});
                     skycons.add("iconWeather", "snow");
                     $("body").css({"background-color" : "#4699bd"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#9346bd"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#9346bd"});
                     $("#city>h2, .btn:hover").css({"color": "#bd6d46"});
                     break;
 
@@ -90,7 +90,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#919165"});
                     skycons.add("iconWeather", "wind");
                     $("body").css({"background-color" : "#c2824a"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#4a5ac2"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#4a5ac2"});
                     $("#city>h2, .btn:hover").css({"color": "#ba4ac2"});
                     break;
 
@@ -98,7 +98,7 @@ $(document).ready(function () {
                     var skycons = new Skycons({"color": "#c1c2b1"});
                     skycons.add("iconWeather", "fog");
                     $("body").css({"background-color" : "#d4c9be"});
-                    $(".btn, #weatherBox, #min>h3, #max>h3").css({"color": "#a6a5bd"});
+                    $(".btn, #min>h3, #max>h3").css({"color": "#a6a5bd"});
                     $("#city>h2, .btn:hover").css({"color": "#b38fb1"});
                     break;
 
